@@ -1,0 +1,29 @@
+dependencies:
+- role: andrewrothstein.gcc-toolbox
+  version: v1.1.0
+- conda_env_environment: azurecli-environment.yml
+  conda_env_name: azurecli
+  role: andrewrothstein.conda-env
+  version: v2.0.7
+galaxy_info:
+  author: Andrew Rothstein
+  company: BlackRock Financial Management
+  description: installs azurecli into conda env
+  galaxy_tags:
+  - development
+  license:
+  - MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - jessie

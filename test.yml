@@ -1,0 +1,8 @@
+---
+- hosts: all
+  roles:
+    - role: andrewrothstein.miniconda
+      miniconda_make_sys_default: True
+      miniconda_cleanup: True
+    - role: '{{ playbook_dir }}'
+      conda_env_activate_for_login_shell: True
