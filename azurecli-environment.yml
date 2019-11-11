@@ -4,4 +4,4 @@ channels:
 dependencies:
   - python={{ azurecli_python_ver }}
   - pip:
-      - azure-cli={{ azurecli_ver }}
+      - azure-cli=={{ azurecli_ver }}
