@@ -1,4 +1,4 @@
 ---
 # defaults file for airflow
 azurecli_python_ver: '3.8'
-azurecli_ver: '2.0.79'
+azurecli_ver: '2.0.81'
