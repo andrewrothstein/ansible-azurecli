@@ -4,7 +4,7 @@ dependencies:
 - conda_env_environment: azurecli-environment.yml
   conda_env_name: azurecli
   role: andrewrothstein.conda-env
-  version: v2.0.7
+  version: v2.1.3
 galaxy_info:
   author: Andrew Rothstein
   company: BlackRock Financial Management
@@ -15,6 +15,12 @@ galaxy_info:
   - MIT
   min_ansible_version: 2.0
   platforms:
+  - name: Alpine
+    versions:
+    - all
+  - name: Archlinux
+    versions:
+    - all
   - name: Debian
     versions:
     - buster
@@ -27,6 +33,9 @@ galaxy_info:
     versions:
     - 31
     - 32
+  - name: Gentoo
+    versions:
+    - all
   - name: Ubuntu
     versions:
     - bionic
