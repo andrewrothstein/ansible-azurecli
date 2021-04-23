@@ -1,4 +1,4 @@
 ---
 # defaults file for azurecli
 azurecli_python_ver: '3.8'
-azurecli_ver: '2.22.0'
+azurecli_ver: '2.22.1'
