@@ -1,6 +1,4 @@
 ---
-channels:
-  - conda-forge
 dependencies:
   - python={{ azurecli_python_ver }}
   - pip
